@@ -1,0 +1,21 @@
+{
+    "name": "magebitcom/magento2-mcp-suite",
+    "description": "Meta-package installing the Magebit MCP server together with its core-domain tool modules. Individual modules are switched on and off in app/etc/config.php.",
+    "type": "metapackage",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "magebitcom/magento2-mcp-module": "^1.1",
+        "magebitcom/magento2-mcp-catalog-tools": "^1.1",
+        "magebitcom/magento2-mcp-cms-tools": "^1.1",
+        "magebitcom/magento2-mcp-customer-tools": "^1.1",
+        "magebitcom/magento2-mcp-marketing-tools": "^1.1",
+        "magebitcom/magento2-mcp-order-tools": "^1.1",
+        "magebitcom/magento2-mcp-report-tools": "^1.1",
+        "magebitcom/magento2-mcp-tax-tools": "^1.0"
+    },
+    "suggest": {
+        "magebitcom/magento2-mcp-google-analytics-tools": "GA4 reporting tools. Needs a Google OAuth connection and pulls in the google/analytics-* SDKs, so it is not part of the suite",
+        "magebitcom/magento2-mcp-db-tools": "Guarded read-only SQL tool. Grants bulk database read access — read its README in full before installing"
+    }
+}
