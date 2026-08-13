@@ -1,6 +1,6 @@
 # Magebit MCP Suite
 
-A Composer meta-package that installs the [Magebit MCP server](https://github.com/magebitcom/magento2-mcp-module) for Magento 2 together with its core-domain tool modules, so you require one package instead of eight.
+A Composer meta-package that installs the [Magebit MCP server](https://github.com/magebitcom/magento2-mcp-module) for Magento 2 together with its core-domain tool modules, so you require one package instead of nine.
 
 It contains no code of its own — only a dependency list. Which modules are actually *active* is decided in `app/etc/config.php`, not by what is installed.
 
@@ -24,6 +24,7 @@ Each MCP module is an ordinary Magento module, so `app/etc/config.php` is the sw
     'Magebit_McpCatalogTools' => 1,
     'Magebit_McpCmsTools' => 1,
     'Magebit_McpCustomerTools' => 1,
+    'Magebit_McpInventoryTools' => 1,
     'Magebit_McpMarketingTools' => 1,
     'Magebit_McpOrderTools' => 1,
     'Magebit_McpReportTools' => 1,

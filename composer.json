@@ -5,10 +5,11 @@
     "license": "MIT",
     "require": {
         "php": ">=8.1",
-        "magebitcom/magento2-mcp-module": "^1.1",
-        "magebitcom/magento2-mcp-catalog-tools": "^1.1",
+        "magebitcom/magento2-mcp-module": "^1.3",
+        "magebitcom/magento2-mcp-catalog-tools": "^1.2",
         "magebitcom/magento2-mcp-cms-tools": "^1.1",
         "magebitcom/magento2-mcp-customer-tools": "^1.1",
+        "magebitcom/magento2-mcp-inventory-tools": "^1.0",
         "magebitcom/magento2-mcp-marketing-tools": "^1.1",
         "magebitcom/magento2-mcp-order-tools": "^1.1",
         "magebitcom/magento2-mcp-report-tools": "^1.1",
