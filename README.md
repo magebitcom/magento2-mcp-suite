@@ -11,7 +11,7 @@ composer require magebitcom/magento2-mcp-suite
 bin/magento setup:upgrade
 ```
 
-Then follow the core module's [Quick Setup guide](https://magebitcom.github.io/magento2-mcp-module/quick-setup/) to issue a token and connect an AI client.
+Then follow the core module's [Quick Setup guide](https://magebit.com/magento-mcp) to issue a token and connect an AI client.
 
 ## Turning modules on and off
 
